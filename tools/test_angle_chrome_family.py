@@ -67,6 +67,8 @@ int main() {
     run("Google Chrome Helper (Aperitif)", nullptr, nullptr, "disableMetalOnNvidia");
     run("Chromium", nullptr, nullptr, "disableMetalOnNvidia");
     run("Chromium Helper (GPU)", nullptr, nullptr, "disableMetalOnNvidia");
+    run("Brave Browser", nullptr, nullptr, "disableMetalOnNvidia");
+    run("Brave Browser Helper (GPU)", nullptr, nullptr, "disableMetalOnNvidia");
     // Everything else stays opt-in.
     run("Safari", nullptr, nullptr, "");
     run("Slack Helper (Renderer)", nullptr, nullptr, "");

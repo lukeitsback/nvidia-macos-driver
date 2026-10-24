@@ -497,7 +497,8 @@ static bool nvmtl_angle_chrome_family(void)
     if (!me) return false;
     return strncmp(me, "Google Chrome", 13) == 0 ||
            strncmp(me, "Chromium", 8) == 0 ||
-           strncmp(me, "Discord", 7) == 0;
+           strncmp(me, "Discord", 7) == 0 ||
+           strncmp(me, "Brave", 5) == 0;
 }
 __attribute__((constructor)) static void nvmtl_angle_allow_nvidia(void)
 {
